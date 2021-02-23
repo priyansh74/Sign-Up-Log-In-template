@@ -1,0 +1,89 @@
+/*Common used colours*/
+* {
+  margin: 0%;
+}
+
+body {
+  background-image: url(wallpaper.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0%;
+  padding: 0% 35%;
+}
+
+::-webkit-input-placeholder {
+  color: #000000;
+}
+
+:-ms-input-placeholder {
+  color: #000000;
+}
+
+::-ms-input-placeholder {
+  color: #000000;
+}
+
+::placeholder {
+  color: #000000;
+}
+
+section {
+  text-align: center;
+  background-color: #D0D3D4DE;
+  height: 100vh;
+  width: 100%;
+}
+
+section img {
+  padding-top: 1.5rem;
+  height: 25%;
+  margin-bottom: 32%;
+}
+
+section form input {
+  border: 0px solid #D0D3D4DE;
+  border-bottom: 3px solid #000000;
+  border-left: 0;
+  background-color: #D0D3D4DE;
+  font-family: sans-serif;
+  width: 80%;
+  margin: 2% 2% 2% 0%;
+  opacity: 0.5;
+  height: 2.5rem;
+  padding: 2% 2% 0% 9%;
+  font-size: 1rem;
+}
+
+section form i {
+  position: relative;
+  left: 2.188rem;
+  top: 0.2rem;
+  margin: 0px;
+}
+
+section form button {
+  border-radius: 2.188rem;
+  padding: 3% 18%;
+  border: 0px solid;
+  background-color: #00af91;
+  color: #FFF;
+  margin-bottom: 7%;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+section form button:hover {
+  background-color: #007965;
+}
+
+section form p {
+  color: #FFF;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+section form span {
+  color: #FFF;
+  font-weight: bolder;
+}
+/*# sourceMappingURL=main.css.map */

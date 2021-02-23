@@ -1,0 +1,73 @@
+/*Common used colours*/
+$background-filter : #D0D3D4DE;
+$text-color: #000000;
+$white : #FFF;
+
+*{
+    margin: 0%;
+}
+body{
+   background-image: url(wallpaper.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;   
+    margin: 0%;
+    padding:0% 35%;
+}
+::placeholder{
+    color: $text-color;
+}
+section{
+    text-align: center;
+    background-color:$background-filter;
+    height: 100vh;
+    width: 100%;
+
+    img{
+        padding-top:1.5rem;
+        height: 25%;
+        margin-bottom: 32%;
+    }
+    form{
+        input{
+            border:0px solid $background-filter;
+            border-bottom: 3px solid $text-color;
+            border-left: 0;
+            background-color: $background-filter;
+            font-family: sans-serif;
+            width: 80%;
+            margin: 2% 2% 2% 0%;
+            opacity: 0.5;
+            height: 2.5rem;
+            padding: 2% 2% 0% 9%;
+            font-size: 1rem;
+        }
+        i{
+            position: relative;
+            left:2.188rem;
+            top:0.2rem;
+            margin: 0px;
+        }
+        button{
+            border-radius: 2.188rem;
+            padding: 3% 18%;
+            border:0px solid;
+            background-color: #00af91;
+            color:$white;
+            margin-bottom: 7%;
+            font-size: 1rem;
+            cursor: pointer;
+        }
+        button:hover{
+            background-color:#007965;
+        }
+        p{
+            color: $white;
+             font-size: 1rem;
+             cursor: pointer;
+        }
+        span{
+            color: $white;
+            font-weight: bolder;
+        }   
+    }
+}
